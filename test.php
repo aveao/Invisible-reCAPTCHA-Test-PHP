@@ -68,6 +68,7 @@
     }
     ?>
     <div>Invisible Captcha is a new type of captcha by Google. <a href=https://www.google.com/recaptcha/intro/comingsoon/invisible.html>See here</a> for more info.</div><br>
+    <noscript>Both recaptcha and bootstrap relies on javascript, and you have it disabled. You know what to do :)</noscript>
     <form action="?action=captchasent" id="demo-form" method="post">
       <button class="g-recaptcha" data-sitekey="-Your-own-sitekey-here-" data-callback='onSubmit'>Test</button>
     </form>
